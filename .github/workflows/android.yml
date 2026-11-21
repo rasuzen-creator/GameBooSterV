@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o NexusTurbo_4.0_Pro.zip -d project
+          unzip -o NexusTurbo_4.2_GamingAssistant.zip -d project
           ls -la project
 
       - uses: actions/setup-java@v4
