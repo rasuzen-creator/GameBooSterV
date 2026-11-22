@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o NexusTurbo_4.3_GameComfort.zip -d project
+          unzip -o nexus_turbo_v5_src.zip -d project
           ls -la project
 
       - uses: actions/setup-java@v4
